@@ -1,0 +1,25 @@
+.card {
+	width: 500px;
+	margin: 0 auto;
+
+	&Header {
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	&Avatar {
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+
+		h2 {
+			margin-left: 10px;
+			font-weight: 500;
+		}
+	}
+
+	&Footer {
+		display: flex;
+		justify-content: space-between;
+	}
+}

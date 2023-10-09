@@ -1,0 +1,13 @@
+.list {
+	display: flex;
+	align-items: center;
+}
+
+.link {
+	margin: 0 20px;
+	font-weight: 500;
+}
+
+.isCurrent {
+	color: red;
+}

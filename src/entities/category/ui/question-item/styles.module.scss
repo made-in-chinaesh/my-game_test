@@ -1,0 +1,29 @@
+.card {
+	cursor: pointer;
+	transition: 200ms;
+	width: 200px;
+	text-align: center;
+	pointer-events: none;
+
+	&:hover {
+		background: teal;
+	}
+}
+
+.text {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.isAnswered {
+	background: green !important;
+	pointer-events: none !important;
+}
+
+.isWrong {
+	background: red !important;
+}
+
+.isStarted {
+	pointer-events: all !important;
+}
